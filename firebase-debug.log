@@ -1,0 +1,41 @@
+[debug] [2021-05-26T02:56:41.313Z] ----------------------------------------------------------------------
+[debug] [2021-05-26T02:56:41.315Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2021-05-26T02:56:41.315Z] CLI Version:   9.11.0
+[debug] [2021-05-26T02:56:41.315Z] Platform:      darwin
+[debug] [2021-05-26T02:56:41.315Z] Node Version:  v14.16.0
+[debug] [2021-05-26T02:56:41.317Z] Time:          Wed May 26 2021 11:56:41 GMT+0900 (대한민국 표준시)
+[debug] [2021-05-26T02:56:41.317Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-26T02:56:41.322Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-26T02:56:41.323Z] > authorizing via signed-in user (leeraincoat@gmail.com)
+[debug] [2021-05-26T02:56:41.323Z] [iam] checking project react-crud-b0c00 for permissions ["firebase.projects.get"]
+[debug] [2021-05-26T02:56:41.324Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-05-26T02:56:41.325Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-26T02:56:41.593Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Wed, 26 May 2021 02:56:45 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-26T02:56:41.648Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/react-crud-b0c00:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-05-26T02:56:42.433Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 26 May 2021 02:56:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=566","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-26T02:56:42.437Z] > refreshing access token with scopes: []
+[debug] [2021-05-26T02:56:42.437Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-26T02:56:42.660Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Wed, 26 May 2021 02:56:46 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-26T02:56:42.704Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-crud-b0c00 [none]
+[debug] [2021-05-26T02:56:43.198Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-crud-b0c00 200
+[debug] [2021-05-26T02:56:43.199Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-crud-b0c00 {"projectId":"react-crud-b0c00","projectNumber":"728219167814","displayName":"React-crud","name":"projects/react-crud-b0c00","resources":{"hostingSite":"react-crud-b0c00"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from '/Users/woobilee/voca'...
+[info] 
+[debug] [2021-05-26T02:56:43.202Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/react-crud-b0c00/sites 
+[debug] [2021-05-26T02:56:44.217Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/react-crud-b0c00/sites 200
+[debug] [2021-05-26T02:56:44.217Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/react-crud-b0c00/sites {}
+[debug] [2021-05-26T02:56:44.218Z] Failed to list hosting sites
+[debug] 
+[debug] [2021-05-26T02:56:44.218Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-crud-b0c00/webApps/-/config [none]
+[debug] [2021-05-26T02:56:45.550Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-crud-b0c00/webApps/-/config 200
+[debug] [2021-05-26T02:56:45.550Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-crud-b0c00/webApps/-/config {"projectId":"react-crud-b0c00","storageBucket":"react-crud-b0c00.appspot.com","apiKey":"AIzaSyCxDl5LINva1A7nSrD_PtXdyHkbzKSTxV4","authDomain":"react-crud-b0c00.firebaseapp.com","messagingSenderId":"728219167814"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [26/May/2021:02:56:50 +0000] "GET / HTTP/1.1" 200 1721 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2021:02:56:50 +0000] \"GET / HTTP/1.1\" 200 1721 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [26/May/2021:02:56:50 +0000] "GET /%PUBLIC_URL%/manifest.json HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2021:02:56:50 +0000] \"GET /%PUBLIC_URL%/manifest.json HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [26/May/2021:02:56:50 +0000] "GET /%PUBLIC_URL%/favicon.ico HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2021:02:56:50 +0000] \"GET /%PUBLIC_URL%/favicon.ico HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\""}}
